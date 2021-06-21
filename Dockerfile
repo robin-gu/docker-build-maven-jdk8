@@ -1,4 +1,4 @@
-FROM maven:3.8.1-openjdk-8
+FROM maven:3.8.1-openjdk-11
 
 RUN curl -fsSL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get update -yq && \
